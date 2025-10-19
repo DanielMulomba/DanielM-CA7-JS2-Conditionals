@@ -1,0 +1,28 @@
+body {
+  background-color: #f5f0e1;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #663300;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  background-color: #fff7e6;
+  padding: 15px;
+  border-bottom: 2px solid #804000;
+}
+
+main {
+  margin-top: 30px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+  color: #804000;
+}
