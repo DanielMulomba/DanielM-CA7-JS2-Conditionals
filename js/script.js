@@ -2,7 +2,7 @@
 
 // 1 – Welcome message and get player's name
 let playerName = prompt("Welcome to Bear Ninja Hunter! Please enter your name to get started:");
-alert("Hi " + playerName + "! Let's play Bear Ninja Hunter!");
+alert("Hi " + playerName + "! Let's play !!");
 
 // 2 – Hard code the computer choice
 let computerChoice = "Bear";
