@@ -1,9 +1,7 @@
 // Bear Ninja Hunter Game
-// Author: Daniel Mulomba
-// Assignment 7 - JS2 Conditionals
 
 // 1 – Welcome message and get player's name
-let playerName = prompt("Welcome to Bear Hunter Ninja! Please enter your name to get started:");
+let playerName = prompt("Welcome to Bear Ninja Hunter! Please enter your name to get started:");
 alert("Hi " + playerName + "! Let's play Bear Ninja Hunter!");
 
 // 2 – Hard code the computer choice
@@ -13,7 +11,7 @@ let computerChoice = "Bear";
 let userChoice = prompt("Who are you: Bear, Ninja, or Hunter?");
 
 // 4 – Display user and computer choices in console
-console.log(playerName + " you chose " + userChoice + "!");
+console.log(playerName + ", you chose " + userChoice + "!");
 console.log("The computer chose " + computerChoice + "!");
 
 // 5 – Determine the winner using if...else if
@@ -21,17 +19,13 @@ let winnerMessage = "";
 
 if (userChoice === computerChoice) {
   winnerMessage = "It's a Tie!";
-} 
-else if (userChoice === "Bear" && computerChoice === "Ninja") {
+} else if (userChoice === "Bear" && computerChoice === "Ninja") {
   winnerMessage = "You Win!!";
-} 
-else if (userChoice === "Ninja" && computerChoice === "Hunter") {
+} else if (userChoice === "Ninja" && computerChoice === "Hunter") {
   winnerMessage = "You Win!!";
-} 
-else if (userChoice === "Hunter" && computerChoice === "Bear") {
+} else if (userChoice === "Hunter" && computerChoice === "Bear") {
   winnerMessage = "You Win!!";
-} 
-else {
+} else {
   winnerMessage = "Computer Wins!!";
 }
 
